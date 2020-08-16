@@ -1,0 +1,36 @@
+@import url("Vazir-FD.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap");
+body{
+    background: #000 !important;
+    font-family: "Vazir-FD", sans-serif !important;
+    direction: rtl !important;
+}
+h1,h2,h3{
+    font-family: "Vazir-FD", sans-serif !important;
+}
+header ul.main-menu > li > a{
+    color: #37D583 !important;
+}
+header ul.main-menu > li > a:hover,header ul.main-menu > li > a:focus,header ul.main-menu > li > a:active{
+    color:#ffffcc !important;
+}
+header .logo{
+    height: auto !important;
+    line-height: unset !important;
+}
+header .main-menu{
+    float: left !important;
+}
+.slider-section{
+    direction: ltr !important;
+}
+.blog-section{
+    background: #ffffff !important;
+}
+.carousel,.carousel-inner,.carousel-item{
+    height: 100% !important;
+}
+.carousel-item{
+    object-fit: cover !important;
+}
